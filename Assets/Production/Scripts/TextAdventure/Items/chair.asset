@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: chair
+  m_EditorClassIdentifier: 
+  noun: chair
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 08999626319581246a3c1a09ecea4456, type: 2}
+    textResponse: "A strangely shaped chair sits facing the center console. You look
+      if over from all angles, but it doesn't seem like you could possibly sit in
+      this chair.  After much consideration you decide that you are lacking in the
+      amount of legs required to use this chair.  Your body would not sit comfortably.
+      \ You expect that that previous owner had no less than four more legs than you
+      do. No way around it, this chair has to go.  You should be able to sit comfortably
+      in your new ship.\r\n"
+    actionResponse: []

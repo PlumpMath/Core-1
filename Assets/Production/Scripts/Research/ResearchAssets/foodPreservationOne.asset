@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7b6bd668b584c44a85bd63a43c1ec75, type: 3}
+  m_Name: foodPreservationOne
+  m_EditorClassIdentifier: 
+  research: {fileID: 1959056203180410, guid: c603ffae630c40d4780591a0868e19eb, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: buttonon
+  m_EditorClassIdentifier: 
+  noun: button
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 968725575f067304b84ff501f6514c07, type: 2}
+    textResponse: "Alright, now it\u2019s the time you reign supreme over this Button.
+      With finality you jam that button down and the console gives a satisfying whir.
+      \ There's also no immediate explosion.  All in all the best outcome you could
+      hope for. You do notice a blue glow coming from the -dais-"
+    actionResponse:
+    - {fileID: 11400000, guid: f310c129ab34e3742b85319867483e42, type: 2}

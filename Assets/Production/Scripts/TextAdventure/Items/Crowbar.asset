@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: Crowbar
+  m_EditorClassIdentifier: 
+  noun: crowbar
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: a61459b1fa1bc784ab0c804aed35e13f, type: 2}
+    textResponse: You take the crowbar in hand, and you are reminded of a game you
+      used to play. Something to do with creatures that latch onto your face.
+    actionResponse: []
+  - inputAction: {fileID: 11400000, guid: 968725575f067304b84ff501f6514c07, type: 2}
+    textResponse: "You reach into your pack and take out the Crowbar.  With a devil
+      may care attitude you shove it into the rock pile at the small stone you believe
+      to be a lynch pin.  With a grunt and a heave you send the whole pile tumbling
+      around you.  A cacophony of falling rocks kicks a large cloud of dust into the
+      air and for a brief moment your heart leaps to your throat.  You see your life
+      flash before your eyes and realize that you could have lived a much better life.
+      \ For starters you should never have taken this job.  Within less than a minute
+      the last of the large boulders have finished falling, and you remain miraculously
+      un-squashed. Man are you glad you wore those lucky underwear today. There is
+      now a path to the -west-\r\n"
+    actionResponse:
+    - {fileID: 11400000, guid: 088ab2520d8e2d84897c23991f62c84b, type: 2}
+    - {fileID: 11400000, guid: 38f7ccaf1687f41479fde35bbf991094, type: 2}

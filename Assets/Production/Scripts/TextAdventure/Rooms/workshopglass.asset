@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb12ce990fc104e884723ea00fe790, type: 3}
+  m_Name: workshopglass
+  m_EditorClassIdentifier: 
+  description: "You walk back out of the room. You look around the laboratory.  To
+    the North there is a room that is pitch black. To the East there is a sealed -Container-.
+    \ Inside there is a glowing orange Core that pulses with light every few seconds.
+    \ Your face breaks into a smirk.  This just got interesting. To the south there
+    is a Cabinet. To the west there is Strange Shape against the wall.\r"
+  roomName: workshopglass
+  exits:
+  - keyString: north
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 3dd7edc2efa25364384064f4c358238c, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 8d05a80a5d9aa13489a88ec86f5af2d5, type: 2}

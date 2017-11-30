@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: CrowbarStuck
+  m_EditorClassIdentifier: 
+  noun: crowbarOLD
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 08999626319581246a3c1a09ecea4456, type: 2}
+    textResponse: "the crowbar lays wedged under a pile of rocks. You attempt to hook
+      your fingers under it with no success.  If only you had a crowbar to move these
+      rocks, you could get this crowbar...maybe your taking this a step too far. Either
+      way, the Crowbar will not budge\r\n"
+    actionResponse:
+    - {fileID: 11400000, guid: 2c961c9a366a85a44b5837c91ddf5c4e, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: door
+  m_EditorClassIdentifier: 
+  noun: door
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 08999626319581246a3c1a09ecea4456, type: 2}
+    textResponse: "You walk up the ramp to what appears to be a door, however it won\u2019t
+      budge.  The Door is made from the same mysterious metal as the rest of the ship.
+      You are pretty sure this is a big discovery, like noble prize level. If only
+      you could get inside this would be even better.  Despite your wishes, the doors
+      remain closed.  Figures, even in the future nothing works.\nThis door seems
+      like many of its kind you have seen before.  Solid, metal, resolutely standing
+      between you and the interior of this ship.  Like all doors the sole purpose
+      is to keep you from the other side.  This door in particular seems well suited
+      to its task. Aside from the small -Seam- where the two sides meet to form this
+      majestic display of doorhood there is nary a crack or crevasse to be seen."
+    actionResponse: []

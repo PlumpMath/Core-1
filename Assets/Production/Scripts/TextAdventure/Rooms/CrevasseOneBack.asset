@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb12ce990fc104e884723ea00fe790, type: 3}
+  m_Name: CrevasseOneBack
+  m_EditorClassIdentifier: 
+  description: " you give a heave backwards and your heart drops when you do not pop
+    free.  Calming yourself, you wiggle back and forth a bit while thinking skinny
+    thoughts. You finally manage to squeeze back out, Phew.\r\n"
+  roomName: Crevasse
+  exits:
+  - keyString: west
+    exitDescription: Continue west
+    valueRoom: {fileID: 11400000, guid: bd0912e5e5242594a855c8695fd67aef, type: 2}
+  - keyString: east
+    exitDescription: Continue east
+    valueRoom: {fileID: 11400000, guid: 071324525e2b5fc469d2abe0840f7a83, type: 2}
+  interactableObjectsInRoom: []

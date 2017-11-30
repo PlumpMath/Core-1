@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb12ce990fc104e884723ea00fe790, type: 3}
+  m_Name: CaveIn
+  m_EditorClassIdentifier: 
+  description: A pile of -Rocks- blocks your way. To the -East- there appears to be
+    a small cave mouth, or is it a trick of the light? -South- of you lies the tunnel
+    back to the Base Camp. Your -Radio- crackles faintly at your hip.
+  roomName: cavein
+  exits:
+  - keyString: south
+    exitDescription: Man you hate this job.  You consider just going back, but you
+      pretty much just got here.  After much consideration you decide that a decent
+      middle ground would be to at least report this cave-In on your -Radio- before
+      you just leave.  Maybe they can send an excavation team or something.
+    valueRoom: {fileID: 11400000, guid: a8faf09fdfaab7f4ca4576f344b768ba, type: 2}
+  - keyString: east
+    exitDescription: 'you glance to the east, long shadows stretch on the wall, and
+      a section appears darker than the rough grey of the stone.  You suspect there''s
+      a small opening there, just big enough to squeeze through '
+    valueRoom: {fileID: 11400000, guid: c3387b1711048554c8b3f9eb54beeeed, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: c1a12d806c02ad744ad263ace740db90, type: 2}
+  - {fileID: 11400000, guid: 82cfab6132dbe1c4dbe05cc5c0a70d61, type: 2}
+  - {fileID: 11400000, guid: eadb2cdfa1c66fa4f98e7bdc791204e6, type: 2}

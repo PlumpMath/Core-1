@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: keys
+  m_EditorClassIdentifier: 
+  noun: keys
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: a61459b1fa1bc784ab0c804aed35e13f, type: 2}
+    textResponse: "You need those keys don't you.  Of course you do.  You steel yourself
+      and before you have the time to think twice dart forward and slip a hand under
+      the body to grab the keys.  The underside of the body is slick and your hand
+      slides in easily.  You try not to think about what is on your hand as you slip
+      your prize into your pocket\r\n"
+    actionResponse: []
+  - inputAction: {fileID: 11400000, guid: 968725575f067304b84ff501f6514c07, type: 2}
+    textResponse: You turn to the Cabinet in the corner and try keys until one slides
+      in.  Bingo.  A sharp flick of your wrist and the lock snaps open.  You crack
+      the doors and peer inside.  Piles of illegible paperwork sit stacked on all
+      shelves.  On the left hand side of the middle shelf, buried under notes and
+      calculations sits a -Flashlight-.
+    actionResponse:
+    - {fileID: 11400000, guid: 9d1895f6eaf12f64cb55e78effa97a19, type: 2}

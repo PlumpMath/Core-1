@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: SharpRock
+  m_EditorClassIdentifier: 
+  noun: sharprock
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 08999626319581246a3c1a09ecea4456, type: 2}
+    textResponse: Its a rock. Its solid, grey and about the size of your fist.  One
+      side has a sharp point as if it were sheered off from a bigger rock. You suspect
+      that it was most likely broken by...say two rocks hitting each other while falling.
+    actionResponse: []
+  - inputAction: {fileID: 11400000, guid: a61459b1fa1bc784ab0c804aed35e13f, type: 2}
+    textResponse: Perfect. You have always wanted a rock collection. What better day
+      than today. After all your certain you will make it out of this tunnel and they
+      did not send you off to certain doom. You stretch your arms out and grasp the
+      pointy rock; by the non-pointy end of course.
+    actionResponse: []
+  - inputAction: {fileID: 11400000, guid: 968725575f067304b84ff501f6514c07, type: 2}
+    textResponse: With a brilliant flash of inspiration you pull the Sharp Rock out
+      of your pack and run over to the crowbar.  You begin to chisel at the earth
+      around the head of the crowbar until you can fit your fingers through.  With
+      a mighty heave you rip the -crowbar- free and crash ignominiously onto your
+      backside. You take a moment, and several deep lungfuls of air, while you enjoy
+      your prize. You should probably take the -crowbar- now.
+    actionResponse:
+    - {fileID: 11400000, guid: 2c961c9a366a85a44b5837c91ddf5c4e, type: 2}

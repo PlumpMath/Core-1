@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb12ce990fc104e884723ea00fe790, type: 3}
+  m_Name: InsideShip
+  m_EditorClassIdentifier: 
+  description: Much like the most ancient of explorers, you boldly stride into this
+    ship and mentally claim it as your own.  You are the new master of this small
+    domain. straight ahead there is an oddly shaped -Chair- in front of a -console-.
+    As you look around the rest of the room, you realise it is much smaller than the
+    outside would have you think. Really only enough space to examine and use. To
+    the left there is a raised -dais-. To the right there is a strange -Machine-.
+  roomName: insideship
+  exits: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 204ea968973d20e4c96af5f98cf9b8ff, type: 2}
+  - {fileID: 11400000, guid: 70b530d37fb15ae428b675426a015e1f, type: 2}
+  - {fileID: 11400000, guid: e8f8d590674b9bd4bb4d61c8f64fb54e, type: 2}
+  - {fileID: 11400000, guid: 44492790b23161e468ac3f7c785692ea, type: 2}
+  - {fileID: 11400000, guid: abd60c4f2ce811443b87840ffaf8e7a6, type: 2}
+  - {fileID: 11400000, guid: 9f1089a602e27314a9fc9c57aef29717, type: 2}
+  - {fileID: 11400000, guid: 497b75bd92fddaa46b69ddaa94f6e8db, type: 2}

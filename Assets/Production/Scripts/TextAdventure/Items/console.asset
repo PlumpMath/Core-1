@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: console
+  m_EditorClassIdentifier: 
+  noun: console
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 08999626319581246a3c1a09ecea4456, type: 2}
+    textResponse: You walk to the Console.  This has seen better days.  It looks like
+      its a communication array that was cracked open in the crash.  Well, at least
+      you don't need communications its not like you could speak to these aliens even
+      if any had survived.  Just inside the crack you can make our some -Wires-.  If
+      you wanted to put on your electricians hat you could maybe get something working
+      in this wreck.  Actually electricians make more than you, would this qualify
+      for specialty pay? You make a note to ask about that once you get back.
+    actionResponse: []

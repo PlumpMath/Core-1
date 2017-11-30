@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb12ce990fc104e884723ea00fe790, type: 3}
+  m_Name: CrevasseTwo
+  m_EditorClassIdentifier: 
+  description: "You have managed to worm your head, torso and about one and a half
+    arms into this small crack in a stone tunnel millions of light years from your
+    home.  You pause for a moment to reflect on how your life led you here. The small
+    alcove is illuminated by some glowing blue fungus which you hope is not toxic
+    since its very close to your face. Nothing too interesting here for all this trouble.
+    \ On the ground, just within reach there is a -SharpRock-.  There is not where
+    to go but Back -west-.\r\n"
+  roomName: Crevasee
+  exits:
+  - keyString: west
+    exitDescription: Continue west
+    valueRoom: {fileID: 11400000, guid: d2d1916cd7b6dad4498618cdc2b05e18, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 168dccd33e42fd04d95c5ee0dd2b5d47, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb12ce990fc104e884723ea00fe790, type: 3}
+  m_Name: UndergroundCavern
+  m_EditorClassIdentifier: 
+  description: "As you wanted deeper into the passage way, it begins to widen out
+    into a Cavern. Great, that should give you some breathing room...or just give
+    more space for any monsters to eat you. Your light shines back in the distance,
+    almost as if off some kind of metal. As you continue to move towards it you notice
+    the metal is actually a -Strange Ship-\r, you see the -engines- and a -door-\n"
+  roomName: undergroundcavern
+  exits:
+  - keyString: east
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: c2178cac7df2b9b4787d3e53be9096d9, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 8abf8c6c63f3d574a96ae78dd33f841f, type: 2}
+  - {fileID: 11400000, guid: d8bb490347c127449ac2f730c5d132e4, type: 2}
+  - {fileID: 11400000, guid: b221a6572bb3f2949a7392553850d715, type: 2}
+  - {fileID: 11400000, guid: 8c8317083b9241f4595de544747741e8, type: 2}

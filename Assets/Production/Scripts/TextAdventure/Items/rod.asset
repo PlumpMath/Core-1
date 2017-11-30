@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: rod
+  m_EditorClassIdentifier: 
+  noun: rod
+  description: "You look at the Glass Rod.  It is made of the same strange glass as
+    the Container in the workshop.  In fact, you would bet your new spaceship that
+    this rod is connected to that case in some way.\r\n"
+  interactions:
+  - inputAction: {fileID: 11400000, guid: a61459b1fa1bc784ab0c804aed35e13f, type: 2}
+    textResponse: 'You reach down and pick up the Glass Rod.  It weights more than
+      you expected.  Regardless you slip it into your pack. '
+    actionResponse: []
+  - inputAction: {fileID: 11400000, guid: 968725575f067304b84ff501f6514c07, type: 2}
+    textResponse: 
+    actionResponse:
+    - {fileID: 11400000, guid: 6afbf8d596174a84380f6da0fb735be2, type: 2}

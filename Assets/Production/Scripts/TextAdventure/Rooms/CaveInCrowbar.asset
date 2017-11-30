@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb12ce990fc104e884723ea00fe790, type: 3}
+  m_Name: CaveInCrowbar
+  m_EditorClassIdentifier: 
+  description: You see a small stone wedged precariously in the pile. You think if
+    you had something to wedge inside you could shift this rock fall. Of course your
+    not sure if this is a great plan since the idea of standing in the middle of thousands
+    of pounds of shifting stone does not appeal to you. Then again you did put on
+    your lucky underwear today.
+  roomName: caveincrowbar
+  exits:
+  - keyString: east
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: c3387b1711048554c8b3f9eb54beeeed, type: 2}
+  - keyString: south
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: a8faf09fdfaab7f4ca4576f344b768ba, type: 2}
+  interactableObjectsInRoom: []

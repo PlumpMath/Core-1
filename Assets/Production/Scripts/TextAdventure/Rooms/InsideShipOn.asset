@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb12ce990fc104e884723ea00fe790, type: 3}
+  m_Name: InsideShipOn
+  m_EditorClassIdentifier: 
+  description: "Lucky for you, you were not in fact sleeping through every electronics
+    class during your mandatory education years. You quickly use the wires to patch
+    the connections within the control panel.  One of the connections is labeled \u201CBattery
+    Backup\u201D and surprisingly the control panel comes to life.\r The -button-
+    is beckoning to you."
+  roomName: insideshipon
+  exits: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 204ea968973d20e4c96af5f98cf9b8ff, type: 2}
+  - {fileID: 11400000, guid: 70b530d37fb15ae428b675426a015e1f, type: 2}
+  - {fileID: 11400000, guid: e8f8d590674b9bd4bb4d61c8f64fb54e, type: 2}
+  - {fileID: 11400000, guid: 44492790b23161e468ac3f7c785692ea, type: 2}
+  - {fileID: 11400000, guid: a3e71cd70b2d1934bbb794f0fd968eea, type: 2}
+  - {fileID: 11400000, guid: 497b75bd92fddaa46b69ddaa94f6e8db, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: seam
+  m_EditorClassIdentifier: 
+  noun: seam
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 08999626319581246a3c1a09ecea4456, type: 2}
+    textResponse: There is a small juncture where the two halves meet. If you had
+      something long and thin you could maybe leverage them apart. Nothing in the
+      cave seems suited to this task, the proximity of this ship is tantalizing, you
+      must get in! If only you had something to pry this door open with...
+    actionResponse: []

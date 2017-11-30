@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ff546e1f0775b458bb9a0a122b2aef, type: 3}
+  m_Name: machine
+  m_EditorClassIdentifier: 
+  noun: machine
+  description: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 08999626319581246a3c1a09ecea4456, type: 2}
+    textResponse: ' A large machine sites here, cold and dark. It is covered in strange
+      -Characters- you do not recognize along with many important looking gauges that
+      sit lifeless. A small slit sits next to a big Red -Button- that''s almost begging
+      you to push it. The machine is connected to a strange console, with an open
+      panel.  This panel seems to be damaged, some of the wires have been snapped.'
+    actionResponse: []

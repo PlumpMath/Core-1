@@ -1,0 +1,264 @@
+[
+    {
+        "researchName":"Resource Technology", 
+        "researchSlug":"resourceTechnology",
+        "researchLearned":false, 
+        "researchParent": "",
+        "researchAvailable": true,
+        "researchResourceCost" : 200,
+        "researchFoodCost" : 50,
+        "researchDescription" : "Builds a lab dedidcated to researching advancements for resource gathering"
+    },{
+        "researchName":"Life Technology", 
+        "researchSlug":"lifeTechnology",
+        "researchLearned":false, 
+        "researchParent": "",
+        "researchAvailable": true,
+        "researchResourceCost" : 200,
+        "researchFoodCost" : 50,
+        "researchDescription" : "Builds a lab dedidcated to researching advancements for life sustainability"
+    },{
+        "researchName":"Defense Technology", 
+        "researchSlug":"defenseTechnology",
+        "researchLearned":false, 
+        "researchParent": "",
+        "researchAvailable": true,
+        "researchResourceCost" : 200,
+        "researchFoodCost" : 50,
+        "researchDescription" : "Builds a lab dedidcated to researching advancements for defense systems"
+    },{
+        "researchName":"Equipment Upgrade I", 
+        "researchSlug":"equipmentUpgradeOne",
+        "researchLearned":false, 
+        "researchParent": "resourceTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 100,
+        "researchFoodCost" : 25,
+        "researchDescription" : "Each resource building produces extra resources at once"
+    }
+    // ,{
+    //     "researchName":"Equipment Upgrade II", 
+    //     "researchSlug":"equipmentUpgradeTwo",
+    //     "researchLearned":false, 
+    //     "researchParent": "equipmentUpgradeOne",
+    //     "researchAvailable": false
+    // },{
+    //     "researchName":"Equipment Upgrade III", 
+    //     "researchSlug":"equipmentUpgradeThree",
+    //     "researchLearned":false, 
+    //     "researchParent": "equipmentUpgradeTwo",
+    //     "researchAvailable": false
+    // }
+    ,{
+        "researchName":"Gather Speed I", 
+        "researchSlug":"gatherSpeedOne",
+        "researchLearned":false, 
+        "researchParent": "lifeTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 100,
+        "researchFoodCost" : 25,
+        "researchDescription" : "Workers gather food and resources faster"
+    }
+    // ,{
+    //     "researchName":"Gather Speed 2", 
+    //     "researchSlug":"gatherSpeedTwo",
+    //     "researchLearned":false, 
+    //     "researchParent": "gatherSpeedOne",
+    //     "researchAvailable": false
+    // },{
+    //     "researchName":"Gather Speed 3", 
+    //     "researchSlug":"gatherSpeedThree",
+    //     "researchLearned":false, 
+    //     "researchParent": "gatherSpeedTwo",
+    //     "researchAvailable": false
+    // }
+    ,{
+        "researchName":"Gather Amount 1", 
+        "researchSlug":"gatherAmountOne",
+        "researchLearned":false, 
+        "researchParent": "lifeTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 100,
+        "researchFoodCost" : 25,
+        "researchDescription" : "Workers can gather more resources and food at once"
+    }
+    // ,{
+    //     "researchName":"Gather Amount 2", 
+    //     "researchSlug":"gatherAmountTwo",
+    //     "researchLearned":false, 
+    //     "researchParent": "gatherAmountOne",
+    //     "researchAvailable": false
+    // },{
+    //     "researchName":"Gather Amount 3", 
+    //     "researchSlug":"gatherAmountThree",
+    //     "researchLearned":false, 
+    //     "researchParent": "gatherAmountTwo",
+    //     "researchAvailable": false
+    // }
+    ,{
+        "researchName":"Auto Gatherer", 
+        "researchSlug":"autoGatherer",
+        "researchLearned":false, 
+        "researchParent": "resourceTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 800,
+        "researchFoodCost" : 100,
+        "researchDescription" : "Robot that acts as a worker with higher gathering speed and gather amount"
+    }
+    // ,{
+    //     "researchName":"Auto Gatherer+", 
+    //     "researchSlug":"autoGathererPlus",
+    //     "researchLearned":false, 
+    //     "researchParent": "autoGatherer",
+    //     "researchAvailable": false
+    // }
+    ,{
+        "researchName":"Food Production I", 
+        "researchSlug":"foodProductionOne",
+        "researchLearned":false, 
+        "researchParent": "resourceTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 100,
+        "researchFoodCost" : 25,
+        "researchDescription" : "Farms produce more food at once"
+    }
+    // ,{
+    //     "researchName":"Food Production II", 
+    //     "researchSlug":"foodProductionTwo",
+    //     "researchLearned":false, 
+    //     "researchParent": "foodProductionOne",
+    //     "researchAvailable": false
+    // },{
+    //     "researchName":"Food Production III", 
+    //     "researchSlug":"foodProductionThree",
+    //     "researchLearned":false, 
+    //     "researchParent": "foodProductionTwo",
+    //     "researchAvailable": false
+    // }
+    ,{
+        "researchName":"Food Preservation I", 
+        "researchSlug":"foodPreservationOne",
+        "researchLearned":false, 
+        "researchParent": "resourceTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 100,
+        "researchFoodCost" : 25,
+        "researchDescription" : "Food Spoils less often"
+    }
+    // ,{
+    //     "researchName":"Food Preservation II", 
+    //     "researchSlug":"foodPreservationTwo",
+    //     "researchLearned":false, 
+    //     "researchParent": "foodPreservationOne",
+    //     "researchAvailable": false
+    // },{
+    //     "researchName":"Food Preservation III", 
+    //     "researchSlug":"foodPreservationThree",
+    //     "researchLearned":false, 
+    //     "researchParent": "foodPreservationTwo",
+    //     "researchAvailable": false
+    // }
+    ,{
+        "researchName":"Medicine Up", 
+        "researchSlug":"medicine Up",
+        "researchLearned":false, 
+        "researchParent": "lifeTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 300,
+        "researchFoodCost" : 100,
+        "researchDescription" : "Workers die less"
+    },{
+        "researchName":"Firtility Up", 
+        "researchSlug":"firtilityUp",
+        "researchLearned":false, 
+        "researchParent": "lifeTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 200,
+        "researchFoodCost" : 50,
+        "researchDescription" : "Workers are born more often"
+    }
+    // ,{
+    //     "researchName":"Cloner", 
+    //     "researchSlug":"cloner",
+    //     "researchLearned":false, 
+    //     "researchParent": "lifeTechnology",
+    //     "researchAvailable": false
+    // },{
+    //     "researchName":"Cloner +", 
+    //     "researchSlug":"clonerPluse",
+    //     "researchLearned":false, 
+    //     "researchParent": "cloner",
+    //     "researchAvailable": false
+    // }
+    ,{
+        "researchName":"Gun Range Up I", 
+        "researchSlug":"gunRangeUpOne",
+        "researchLearned":false, 
+        "researchParent": "defenseTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 100,
+        "researchFoodCost" : 25,
+        "researchDescription" : "Guns range are increased 100%"
+    },{
+        "researchName":"Gun Range Up II", 
+        "researchSlug":"gunRangeUpTwo",
+        "researchLearned":false, 
+        "researchParent": "gunRangeUpOne",
+        "researchAvailable": false,
+        "researchResourceCost" : 300,
+        "researchFoodCost" : 10,
+        "researchDescription" : "Guns range are increased 100% "
+    }
+    // ,{
+    //     "researchName":"Gun Range Up III", 
+    //     "researchSlug":"gunRangeUpTwo",
+    //     "researchLearned":false, 
+    //     "researchParent": "gunRangeUpTwo",
+    //     "researchAvailable": false
+    // }
+    ,{
+        "researchName":"Gun Fire Rate Up I", 
+        "researchSlug":"gunFireRateOne",
+        "researchLearned":false, 
+        "researchParent": "defenseTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 100,
+        "researchFoodCost" : 25,
+        "researchDescription" : "Guns fire more often"
+    },{
+        "researchName":"Gun Fire Rate Up II", 
+        "researchSlug":"gunFireRateTwo",
+        "researchLearned":false, 
+        "researchParent": "gunFireRateOne",
+        "researchAvailable": false,
+        "researchResourceCost" : 100,
+        "researchFoodCost" : 25,
+        "researchDescription" : "Guns fire even more often"
+    }
+    // ,{
+    //     "researchName":"Gun Fire Rate Up III", 
+    //     "researchSlug":"gunFireRateThree",
+    //     "researchLearned":false, 
+    //     "researchParent": "gunFireRateTwo",
+    //     "researchAvailable": false
+    // }
+    ,{
+        "researchName":"Gun Damage Up", 
+        "researchSlug":"gunDamageUp",
+        "researchLearned":false, 
+        "researchParent": "defenseTechnology",
+        "researchAvailable": false,
+        "researchResourceCost" : 100,
+        "researchFoodCost" : 25,
+        "researchDescription" : "Guns now do an extra damage"
+    },{
+        "researchName":"Research Up", 
+        "researchSlug":"reserachUp",
+        "researchLearned":false, 
+        "researchParent": "",
+        "researchAvailable": false,
+        "researchResourceCost" : 800,
+        "researchFoodCost" : 100,
+        "researchDescription" : "Researching is now quicker"
+    }
+]
